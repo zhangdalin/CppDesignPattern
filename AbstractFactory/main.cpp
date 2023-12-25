@@ -4,7 +4,6 @@
 
 #include <QDebug>
 
-
 int main() {
     std::shared_ptr<Factory> factory;
 

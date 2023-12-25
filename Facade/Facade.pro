@@ -1,4 +1,4 @@
-# 创建型模式-工厂模式
+# 结构型模式-外观模式
 
 TEMPLATE = app
 CONFIG += console c++17
@@ -9,7 +9,5 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    ConcreteCreator.h \
-    ConcreteProduct.h \
-    Creator.h \
-    Product.h
+    Facade.h \
+    SubSystem.h
